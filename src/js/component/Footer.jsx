@@ -1,9 +1,9 @@
 import React from "react";
 
 //create your first component
-const Navbar = () => {
+const Footer = () => {
     return (
-        <div className="">
+        <div className="text-center">
             <nav className="navbar navbar-expand-lg bg-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand text-white fs-4" href="#">Leonard Racing Team</a>
@@ -29,4 +29,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Footer;
