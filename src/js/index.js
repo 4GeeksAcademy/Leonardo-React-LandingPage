@@ -8,12 +8,8 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-// import Navbar from "./component/Navbar.jsx";
-// import Call from "./component/Call.jsx";
+
 
 //render your react application
 ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
-// ReactDOM.createRoot(document.getElementById('app')).render(<Navbar/>);
-
-// ReactDOM.createRoot(document.getElementById('Call')).render(<Call/>);
 
