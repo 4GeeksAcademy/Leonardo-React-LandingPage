@@ -1,3 +1,9 @@
+/* Navbar */
+#Menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 /* box del call to action */
 #BoxPrincipal {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -38,6 +44,11 @@
     font-family: "Staatliches", sans-serif;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
+
+.card h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
 /* estilos del boton de las cartas */
 #Boton {
     background-color: #757575;
@@ -48,6 +59,7 @@
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 /* Cuando el raton esta encima */
 #Boton:hover {

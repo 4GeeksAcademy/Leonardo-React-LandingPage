@@ -11,14 +11,14 @@ const Call = (props) => {
                             <div className="offset-xl-1 col-xl-5 col-md-6 col-12">
                                 {/* Texto Call to action  */}
                                 <div>
-                                    <h2 className="h2  m-4"><strong>Leonard Racoon:</strong> El SUV del futuro que transforma cada viaje</h2>
-                                    <p className="fs-4">El Leonard Racoon redefine el concepto de los SUV modernos. Con un diseño robusto y elegante, este vehículo está pensado para quienes buscan confort, seguridad y tecnología avanzada sin sacrificar estilo.</p>
-                                    <button id="BotonPrincipal" className="m-4 px-5">Quiero probarlo</button>
+                                    <h2 className="h2  m-4"><strong>{props.strong}</strong>{props.titulo}</h2>
+                                    <p className="fs-4">{props.texto}</p>
+                                    <button id="BotonPrincipal" className="m-4 px-5">{props.Texboton}</button>
                                 </div>
                             </div>
                             <div className="col-xl-6 col-md-6 col-12">
                                 {/* imagen del call to action  */}
-                                <div className="text-center">
+                                <div className="text-center mb-5 mt-5">
                                     <img src={props.Principal} alt="learning" className="img-fluid" />
 
                                 </div>

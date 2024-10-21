@@ -12,7 +12,7 @@ const Home = () => {
             {/* Menu Navbar  */}
             <Navbar />
             {/* Box call to action  */}
-            <Call Principal="" />
+            <Call Principal="" strong="Leonard Racoon:" titulo="El SUV del futuro que transforma cada viaje" texto="El Leonard Racoon redefine el concepto de los SUV modernos. Con un diseño robusto y elegante, este vehículo está pensado para quienes buscan confort, seguridad y tecnología avanzada sin sacrificar estilo." Texboton="Quiero probarlo" />
             {/* Conjunto de cartas  */}
             <div className="container d-flex flex-column flex-md-row justify-content-center">
                 {/* Carta 1 */}

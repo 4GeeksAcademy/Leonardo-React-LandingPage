@@ -3,8 +3,8 @@ import React from "react";
 //create your first component
 const Navbar = () => {
     return (
-        <div className="">
-            <nav className="navbar navbar-expand-lg bg-dark">
+        <div id="Menu" className="">
+            <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "#757575" }}>
                 <div className="container-fluid">
                     <a className="navbar-brand text-white fs-4" href="#">Leonard Racing Team</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
